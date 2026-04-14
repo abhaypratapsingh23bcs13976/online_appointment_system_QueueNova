@@ -1,0 +1,37 @@
+ERROR:
+Command failed: node_modules\\.bin\\serverless.cmd deploy
+
+✖ Error: You must sign in or use a license key with Serverless Framework V.4 and later versions. Please use "serverless login".
+    at Authentication.getAuthenticatedData (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:889:11573)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Authentication.authenticate (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:892:4133)
+    at async TraditionalRunner.resolveVariablesAndAuthenticate (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:900:2397)
+    at async TraditionalRunner.run (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:2344:28113)
+    at async route (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:2515:2848)
+    at async Object.run (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:2516:3886)
+    at async run2 (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:2516:5040)
+
+For help, try the following:
+  • Run the command again with the "--debug" option
+  • Run "serverless support"
+  • Review the docs: https://www.serverless.com/framework/docs/
+
+
+
+
+
+✖ Error: You must sign in or use a license key with Serverless Framework V.4 and later versions. Please use "serverless login".
+    at Authentication.getAuthenticatedData (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:889:11573)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Authentication.authenticate (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:892:4133)
+    at async TraditionalRunner.resolveVariablesAndAuthenticate (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:900:2397)
+    at async TraditionalRunner.run (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:2344:28113)
+    at async route (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:2515:2848)
+    at async Object.run (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:2516:3886)
+    at async run2 (file:///C:/Users/Hemant/.serverless/releases/4.33.3/package/dist/sf-core.js:2516:5040)
+
+For help, try the following:
+  • Run the command again with the "--debug" option
+  • Run "serverless support"
+  • Review the docs: https://www.serverless.com/framework/docs/
+

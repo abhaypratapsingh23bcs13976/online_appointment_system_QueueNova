@@ -1,0 +1,20 @@
+# Node
+node_modules/
+temp_zip_extract/
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+*.key
+*.pem
+
+# Java
+target/
+
+# OS
+.DS_Store
+Thumbs.db

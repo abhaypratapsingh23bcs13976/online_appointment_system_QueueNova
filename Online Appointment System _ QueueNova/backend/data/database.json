@@ -1,0 +1,2206 @@
+{
+  "users": [
+    {
+      "id": "f09262f6-e008-4bb7-89ee-33a4e82b3827",
+      "name": "Amit Sharma",
+      "email": "final_test@test.com",
+      "password": "$2b$10$ZC1Ovftannt1DuzyosfU1.mHC8u1C.3nqu850hfQbUL4GEZK9BO6W",
+      "phone": "+91 91234 56789",
+      "gender": "Male",
+      "bloodGroup": "O+"
+    },
+    {
+      "id": "e3ae89fa-dc03-49c9-b7d7-eacf839c87df",
+      "name": "Priya Patel",
+      "email": "final_test_2@test.com",
+      "password": "$2b$10$GVsVVPH3wn7o/95BX2ZqouZPFIP5puOjvb0f9WGaTp0Qj9cg5uVgW",
+      "isAdmin": false,
+      "phone": "+91 99887 76655",
+      "gender": "Female",
+      "bloodGroup": "A+"
+    },
+    {
+      "id": "54a3eeeb-77fc-42cc-b13c-1e67d1b999c6",
+      "name": "ABHAY PRATAP SINGH",
+      "email": "abhaypratapsingh050705knp@gmail.com",
+      "password": "$2b$12$Ay4.FVGPQsVREii8eCqv7eZr5I8KMRO79TvnI37Wp6KDTMSZVHMVq",
+      "isAdmin": false
+    },
+    {
+      "id": "d9bb3cfa-c96e-47f5-b72f-dc5f0acdb018",
+      "name": "Yash",
+      "email": "23bcs13953@cuchd.in",
+      "password": "$2b$12$HwsQJgjKFTmW38VesbULOuwp2EOjsMpIYgyXJZRVsE/d0LeYMoScG",
+      "isAdmin": false
+    }
+  ],
+  "family_members": [],
+  "hospitals": [
+    {
+      "id": "h1",
+      "name": "All India Institute of Medical Sciences (AIIMS)",
+      "city": "New Delhi",
+      "address": "Ansari Nagar East, New Delhi 110029",
+      "phone": "+91 11 2658 8500",
+      "email": "info@aiims.edu",
+      "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=800",
+      "departments": [
+        "General Medicine",
+        "Cardiology",
+        "Neurology",
+        "Oncology",
+        "Pediatrics",
+        "Orthopedics",
+        "Dermatology",
+        "Nephrology",
+        "Ophthalmology"
+      ],
+      "rating": 4.9,
+      "established": 1956,
+      "beds": 2500,
+      "specialty": "Multi-specialty Government"
+    },
+    {
+      "id": "h2",
+      "name": "Fortis Memorial Research Institute",
+      "city": "Gurugram",
+      "address": "Sector 44, Opposite HUDA City Centre, Gurugram, Haryana 122002",
+      "phone": "+91 124 492 1021",
+      "email": "info@fortishealthcare.com",
+      "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800",
+      "departments": [
+        "Cardiology",
+        "Oncology",
+        "Neurology",
+        "Orthopedics",
+        "Gastroenterology",
+        "Urology",
+        "Nephrology"
+      ],
+      "rating": 4.8,
+      "established": 1996,
+      "beds": 1000,
+      "specialty": "Multi-specialty Private"
+    },
+    {
+      "id": "h3",
+      "name": "Apollo Hospitals",
+      "city": "Chennai",
+      "address": "21 Greams Lane, Off Greams Road, Chennai 600006",
+      "phone": "+91 44 2829 3333",
+      "email": "apollochennai@apollohospitals.com",
+      "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=800",
+      "departments": [
+        "Cardiology",
+        "Oncology",
+        "Neurology",
+        "Pediatrics",
+        "Orthopedics",
+        "Gastroenterology",
+        "Transplant"
+      ],
+      "rating": 4.7,
+      "established": 1983,
+      "beds": 560,
+      "specialty": "Multi-specialty Private"
+    },
+    {
+      "id": "h4",
+      "name": "Medanta - The Medicity",
+      "city": "Gurugram",
+      "address": "CH Baktawar Singh Road, Sector 38, Gurugram 122001",
+      "phone": "+91 124 414 1414",
+      "email": "info@medanta.org",
+      "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800",
+      "departments": [
+        "Cardiology",
+        "Neurology",
+        "Orthopedics",
+        "Gastroenterology",
+        "Urology",
+        "Oncology",
+        "Nephrology",
+        "Pulmonology"
+      ],
+      "rating": 4.7,
+      "established": 2009,
+      "beds": 1250,
+      "specialty": "Multi-specialty Private"
+    },
+    {
+      "id": "h5",
+      "name": "Narayana Health",
+      "city": "Bangalore",
+      "address": "Bommasandra Industrial Area, Bangalore 560099",
+      "phone": "+91 80 7122 2222",
+      "email": "info@narayanahealth.org",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800",
+      "departments": [
+        "Cardiac Surgery",
+        "Neurology",
+        "Oncology",
+        "Nephrology",
+        "Pediatrics",
+        "Orthopedics"
+      ],
+      "rating": 4.5,
+      "established": 2000,
+      "beds": 5000,
+      "specialty": "Multi-specialty Private"
+    },
+    {
+      "id": "h6",
+      "name": "Max Super Speciality Hospital",
+      "city": "New Delhi",
+      "address": "Press Enclave Road, Saket, New Delhi 110017",
+      "phone": "+91 11 2651 5050",
+      "email": "enquiry@maxhealthcare.com",
+      "image": "https://images.unsplash.com/photo-1551190822-a9333d879b1f?auto=format&fit=crop&q=80&w=800",
+      "departments": [
+        "Orthopedics",
+        "Oncology",
+        "Gastroenterology",
+        "Cardiology",
+        "Neurology",
+        "Nephrology",
+        "Bariatric Surgery"
+      ],
+      "rating": 4.6,
+      "established": 1985,
+      "beds": 500,
+      "specialty": "Multi-specialty Private"
+    },
+    {
+      "id": "h7",
+      "name": "Manipal Hospital",
+      "city": "Bangalore",
+      "address": "98 HAL Airport Road, Bangalore 560017",
+      "phone": "+91 80 2502 4444",
+      "email": "manipal.bangalore@manipalhospitals.com",
+      "image": "https://images.unsplash.com/photo-1588914533174-8a9bd9d1e5d7?auto=format&fit=crop&q=80&w=800",
+      "departments": [
+        "General Medicine",
+        "Cardiology",
+        "Dermatology",
+        "Psychiatry",
+        "Neurology",
+        "Oncology",
+        "Orthopedics"
+      ],
+      "rating": 4.5,
+      "established": 1953,
+      "beds": 600,
+      "specialty": "Multi-specialty Private"
+    },
+    {
+      "id": "h8",
+      "name": "Kokilaben Dhirubhai Ambani Hospital",
+      "city": "Mumbai",
+      "address": "Rao Bahadur Y. N. Road, Andheri West, Mumbai 400053",
+      "phone": "+91 22 3091 7777",
+      "email": "info@kokilabenhospital.com",
+      "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=800",
+      "departments": [
+        "Oncology",
+        "Transplant",
+        "Cardiology",
+        "Neurology",
+        "Orthopedics",
+        "Nephrology",
+        "Gastroenterology"
+      ],
+      "rating": 4.8,
+      "established": 2009,
+      "beds": 750,
+      "specialty": "Multi-specialty Private"
+    },
+    {
+      "id": "h9",
+      "name": "Christian Medical College",
+      "city": "Vellore",
+      "address": "Ida Scudder Road, Vellore 632004",
+      "phone": "+91 416 228 2010",
+      "email": "admin@cmcvellore.ac.in",
+      "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&q=80&w=800",
+      "departments": [
+        "General Medicine",
+        "Surgery",
+        "Pediatrics",
+        "Obstetrics",
+        "Cardiology",
+        "Neurology",
+        "Oncology"
+      ],
+      "rating": 4.9,
+      "established": 1900,
+      "beds": 3000,
+      "specialty": "Multi-specialty Trust"
+    },
+    {
+      "id": "h10",
+      "name": "Christian Medical College",
+      "city": "Ludhiana",
+      "address": "Brown Road, Ludhiana 141008, Punjab",
+      "phone": "+91 161 211 5000",
+      "email": "cmcludhiana@cmcl.co.in",
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5f528?auto=format&fit=crop&q=80&w=800",
+      "departments": [
+        "Cardiology",
+        "Nephrology",
+        "Urology",
+        "Gastroenterology",
+        "Neurology",
+        "Oncology"
+      ],
+      "rating": 4.7,
+      "established": 1894,
+      "beds": 750,
+      "specialty": "Multi-specialty Trust"
+    },
+    {
+      "id": "h11",
+      "name": "Tata Memorial Hospital",
+      "city": "Mumbai",
+      "address": "Dr. Ernest Borges Road, Parel, Mumbai 400012",
+      "phone": "+91 22 2417 7000",
+      "email": "mumbaiknow@tatacentralhospital.org",
+      "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=800",
+      "departments": [
+        "Oncology",
+        "Radiation Oncology",
+        "Surgical Oncology",
+        "Pediatric Oncology",
+        "Neuro Oncology"
+      ],
+      "rating": 4.8,
+      "established": 1941,
+      "beds": 700,
+      "specialty": "Cancer Center"
+    },
+    {
+      "id": "h12",
+      "name": "PGIMER Chandigarh",
+      "city": "Chandigarh",
+      "address": "Sector 12, Chandigarh 160012",
+      "phone": "+91 172 274 6018",
+      "email": "pgi@pgimer.edu.in",
+      "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=800",
+      "departments": [
+        "Neurology",
+        "Cardiology",
+        "Gastroenterology",
+        "Nephrology",
+        "Oncology",
+        "Pediatrics",
+        "Urology"
+      ],
+      "rating": 4.8,
+      "established": 1962,
+      "beds": 1850,
+      "specialty": "Government Super-specialty"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "d1",
+      "name": "Dr. Randeep Guleria",
+      "gender": "male",
+      "specialty": "Pulmonologist",
+      "rating": 4.9,
+      "experience": "Senior",
+      "experienceYears": 25,
+      "hospitalId": "h1",
+      "department": "Pulmonology",
+      "qualification": "MBBS, MD (Medicine), DM (Pulmonary Medicine)",
+      "consultationFee": 1500,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d2",
+      "name": "Dr. Nageshwar Reddy",
+      "gender": "male",
+      "specialty": "Gastroenterologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 30,
+      "hospitalId": "h1",
+      "department": "Gastroenterology",
+      "qualification": "MBBS, MD (Medicine), DM (Gastroenterology)",
+      "consultationFee": 1800,
+      "languages": [
+        "Hindi",
+        "English",
+        "Telugu"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d3",
+      "name": "Dr. Vimla Venkatesh",
+      "gender": "female",
+      "specialty": "Neurologist",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 18,
+      "hospitalId": "h1",
+      "department": "Neurology",
+      "qualification": "MBBS, MD (Medicine), DM (Neurology)",
+      "consultationFee": 2000,
+      "languages": [
+        "Hindi",
+        "English",
+        "Tamil"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "11:00-12:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d4",
+      "name": "Dr. Ajay Singh",
+      "gender": "male",
+      "specialty": "Cardiologist",
+      "rating": 4.9,
+      "experience": "Senior",
+      "experienceYears": 22,
+      "hospitalId": "h2",
+      "department": "Cardiology",
+      "qualification": "MBBS, MD (Medicine), DM (Cardiology)",
+      "consultationFee": 1500,
+      "languages": [
+        "Hindi",
+        "English",
+        "Punjabi"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d5",
+      "name": "Dr. Suman Kalyan",
+      "gender": "female",
+      "specialty": "Oncologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 20,
+      "hospitalId": "h2",
+      "department": "Oncology",
+      "qualification": "MBBS, MD (Oncology), DM (Oncology)",
+      "consultationFee": 2500,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "13:00-14:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d6",
+      "name": "Dr. Rahul Khanna",
+      "gender": "male",
+      "specialty": "Orthopedic Surgeon",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 15,
+      "hospitalId": "h2",
+      "department": "Orthopedics",
+      "qualification": "MBBS, MS (Orthopedics), Fellowship in Joint Replacement",
+      "consultationFee": 1800,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d7",
+      "name": "Dr. M. R. K. Pillai",
+      "gender": "male",
+      "specialty": "Cardiothoracic Surgeon",
+      "rating": 4.9,
+      "experience": "Senior",
+      "experienceYears": 25,
+      "hospitalId": "h3",
+      "department": "Cardiac Surgery",
+      "qualification": "MBBS, MS (General Surgery), MCh (Cardiothoracic Surgery)",
+      "consultationFee": 3000,
+      "languages": [
+        "English",
+        "Hindi",
+        "Malayalam"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d8",
+      "name": "Dr. Lakshmi",
+      "gender": "female",
+      "specialty": "Pediatrician",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 18,
+      "hospitalId": "h3",
+      "department": "Pediatrics",
+      "qualification": "MBBS, MD (Pediatrics), Fellowship in Neonatology",
+      "consultationFee": 1200,
+      "languages": [
+        "English",
+        "Hindi",
+        "Tamil"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d9",
+      "name": "Dr. Prathap C. Reddy",
+      "gender": "male",
+      "specialty": "Neurologist",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 22,
+      "hospitalId": "h3",
+      "department": "Neurology",
+      "qualification": "MBBS, MD (Medicine), DM (Neurology)",
+      "consultationFee": 2200,
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d10",
+      "name": "Dr. Naresh Trehan",
+      "gender": "male",
+      "specialty": "Cardiovascular Surgeon",
+      "rating": 4.9,
+      "experience": "Senior",
+      "experienceYears": 30,
+      "hospitalId": "h4",
+      "department": "Cardiac Surgery",
+      "qualification": "MBBS, MD (Surgery),Fellowship in Cardiovascular Surgery",
+      "consultationFee": 3500,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00"
+      ]
+    },
+    {
+      "id": "d11",
+      "name": "Dr. Aditi Gupta",
+      "gender": "female",
+      "specialty": "Dermatologist",
+      "rating": 4.6,
+      "experience": "Mid",
+      "experienceYears": 12,
+      "hospitalId": "h4",
+      "department": "Dermatology",
+      "qualification": "MBBS, MD (Dermatology)",
+      "consultationFee": 1200,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d12",
+      "name": "Dr. Sanjay Wadhawan",
+      "gender": "male",
+      "specialty": "Nephrologist",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 18,
+      "hospitalId": "h4",
+      "department": "Nephrology",
+      "qualification": "MBBS, MD (Medicine), DM (Nephrology)",
+      "consultationFee": 1600,
+      "languages": [
+        "Hindi",
+        "English",
+        "Marathi"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d13",
+      "name": "Dr. Devi Shetty",
+      "gender": "male",
+      "specialty": "Cardiac Surgeon",
+      "rating": 4.9,
+      "experience": "Senior",
+      "experienceYears": 28,
+      "hospitalId": "h5",
+      "department": "Cardiac Surgery",
+      "qualification": "MBBS, MS (General Surgery), Fellowship in Cardiac Surgery",
+      "consultationFee": 3000,
+      "languages": [
+        "English",
+        "Hindi",
+        "Kannada"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d14",
+      "name": "Dr. Suchita",
+      "gender": "female",
+      "specialty": "Gynecologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 15,
+      "hospitalId": "h5",
+      "department": "Obstetrics",
+      "qualification": "MBBS, MS (Obstetrics & Gynecology)",
+      "consultationFee": 1000,
+      "languages": [
+        "English",
+        "Hindi",
+        "Kannada"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "11:00-12:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d15",
+      "name": "Dr. Rajesh Tandon",
+      "gender": "male",
+      "specialty": "Psychiatrist",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 20,
+      "hospitalId": "h6",
+      "department": "Psychiatry",
+      "qualification": "MBBS, MD (Psychiatry)",
+      "consultationFee": 1200,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d16",
+      "name": "Dr. Anupama",
+      "gender": "female",
+      "specialty": "Ophthalmologist",
+      "rating": 4.6,
+      "experience": "Mid",
+      "experienceYears": 10,
+      "hospitalId": "h6",
+      "department": "Ophthalmology",
+      "qualification": "MBBS, MS (Ophthalmology), Fellowship in Retina",
+      "consultationFee": 1000,
+      "languages": [
+        "English",
+        "Hindi",
+        "Kannada"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d17",
+      "name": "Dr. Hrishikesh Pai",
+      "gender": "male",
+      "specialty": "Fertility Specialist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 25,
+      "hospitalId": "h8",
+      "department": "IVF",
+      "qualification": "MBBS, MS (Obstetrics & Gynecology), Fellowship in IVF",
+      "consultationFee": 2000,
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d18",
+      "name": "Dr. Firuza Parikh",
+      "gender": "female",
+      "specialty": "Gynecologist",
+      "rating": 4.9,
+      "experience": "Senior",
+      "experienceYears": 22,
+      "hospitalId": "h8",
+      "department": "Obstetrics",
+      "qualification": "MBBS, MD (Obstetrics & Gynecology)",
+      "consultationFee": 1500,
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d19",
+      "name": "Dr. K. K. Talwar",
+      "gender": "male",
+      "specialty": "Cardiologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 28,
+      "hospitalId": "h12",
+      "department": "Cardiology",
+      "qualification": "MBBS, MD (Medicine), DM (Cardiology)",
+      "consultationFee": 1800,
+      "languages": [
+        "Hindi",
+        "English",
+        "Punjabi"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "10:00-11:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d20",
+      "name": "Dr. Veenu Singh",
+      "gender": "female",
+      "specialty": "Pediatrician",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 18,
+      "hospitalId": "h9",
+      "department": "Pediatrics",
+      "qualification": "MBBS, MD (Pediatrics)",
+      "consultationFee": 900,
+      "languages": [
+        "English",
+        "Hindi",
+        "Tamil"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "14:00-15:00",
+        "16:00-17:00"
+      ]
+    },
+    {
+      "id": "d21",
+      "name": "Dr. Mammen Chandy",
+      "gender": "male",
+      "specialty": "General Surgeon",
+      "rating": 4.9,
+      "experience": "Senior",
+      "experienceYears": 30,
+      "hospitalId": "h9",
+      "department": "Surgery",
+      "qualification": "MBBS, MS (General Surgery), Fellowship in Minimal Access Surgery",
+      "consultationFee": 1500,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "13:00-14:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d22",
+      "name": "Dr. Anna Varghese",
+      "gender": "female",
+      "specialty": "Obstetrician",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 16,
+      "hospitalId": "h9",
+      "department": "Obstetrics",
+      "qualification": "MBBS, DGO, DNB (Obstetrics & Gynecology)",
+      "consultationFee": 1100,
+      "languages": [
+        "English",
+        "Tamil",
+        "Malayalam"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d23",
+      "name": "Dr. C. N. Manjunath",
+      "gender": "male",
+      "specialty": "Cardiologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 25,
+      "hospitalId": "h7",
+      "department": "Cardiology",
+      "qualification": "MBBS, MD (Medicine), DM (Cardiology)",
+      "consultationFee": 1400,
+      "languages": [
+        "English",
+        "Hindi",
+        "Kannada"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "10:00-11:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d24",
+      "name": "Dr. Rashmi K. R.",
+      "gender": "female",
+      "specialty": "Dermatologist",
+      "rating": 4.6,
+      "experience": "Mid",
+      "experienceYears": 10,
+      "hospitalId": "h7",
+      "department": "Dermatology",
+      "qualification": "MBBS, DDVL, MD (Dermatology)",
+      "consultationFee": 1000,
+      "languages": [
+        "English",
+        "Hindi",
+        "Kannada"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d25",
+      "name": "Dr. S. K. Sama",
+      "gender": "male",
+      "specialty": "Cardiologist",
+      "rating": 4.9,
+      "experience": "Senior",
+      "experienceYears": 35,
+      "hospitalId": "h1",
+      "department": "Cardiology",
+      "qualification": "MBBS, MD (Medicine), DM (Cardiology)",
+      "consultationFee": 2000,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "10:00-11:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d26",
+      "name": "Dr. A. K. K. Singh",
+      "gender": "male",
+      "specialty": "Nephrologist",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 20,
+      "hospitalId": "h1",
+      "department": "Nephrology",
+      "qualification": "MBBS, MD (Medicine), DM (Nephrology)",
+      "consultationFee": 1800,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d27",
+      "name": "Dr. Vivek Tandon",
+      "gender": "male",
+      "specialty": "Ophthalmologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 18,
+      "hospitalId": "h1",
+      "department": "Ophthalmology",
+      "qualification": "MBBS, MS (Ophthalmology), Fellowship in Retina",
+      "consultationFee": 1200,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d28",
+      "name": "Dr. G. R. K. Rao",
+      "gender": "male",
+      "specialty": "Gastroenterologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 22,
+      "hospitalId": "h2",
+      "department": "Gastroenterology",
+      "qualification": "MBBS, MD (Medicine), DM (Gastroenterology)",
+      "consultationFee": 2000,
+      "languages": [
+        "Hindi",
+        "English",
+        "Telugu"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d29",
+      "name": "Dr. Rajeev B. Singh",
+      "gender": "male",
+      "specialty": "Urologist",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 16,
+      "hospitalId": "h2",
+      "department": "Urology",
+      "qualification": "MBBS, MS (General Surgery), MCh (Urology)",
+      "consultationFee": 1600,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d30",
+      "name": "Dr. Nitin M. Walia",
+      "gender": "male",
+      "specialty": "ENT Specialist",
+      "rating": 4.6,
+      "experience": "Mid",
+      "experienceYears": 12,
+      "hospitalId": "h2",
+      "department": "ENT",
+      "qualification": "MBBS, MS (ENT)",
+      "consultationFee": 1000,
+      "languages": [
+        "Hindi",
+        "English",
+        "Punjabi"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d31",
+      "name": "Dr. Mohit Chhabra",
+      "gender": "male",
+      "specialty": "Dermatologist",
+      "rating": 4.7,
+      "experience": "Mid",
+      "experienceYears": 10,
+      "hospitalId": "h2",
+      "department": "Dermatology",
+      "qualification": "MBBS, DDVL, MD (Dermatology)",
+      "consultationFee": 1100,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d32",
+      "name": "Dr. R. R. Patil",
+      "gender": "male",
+      "specialty": "Pulmonologist",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 18,
+      "hospitalId": "h2",
+      "department": "Pulmonology",
+      "qualification": "MBBS, MD (Pulmonary Medicine)",
+      "consultationFee": 1400,
+      "languages": [
+        "Hindi",
+        "English",
+        "Marathi"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d33",
+      "name": "Dr. Shyam Sharma",
+      "gender": "male",
+      "specialty": "General Physician",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 25,
+      "hospitalId": "h3",
+      "department": "General Medicine",
+      "qualification": "MBBS, MD (Medicine)",
+      "consultationFee": 800,
+      "languages": [
+        "English",
+        "Hindi",
+        "Tamil"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d34",
+      "name": "Dr. M. G. Ramachandran",
+      "gender": "male",
+      "specialty": "Oncologist",
+      "rating": 4.9,
+      "experience": "Senior",
+      "experienceYears": 28,
+      "hospitalId": "h3",
+      "department": "Oncology",
+      "qualification": "MBBS, MD (Oncology), DM (Oncology)",
+      "consultationFee": 2500,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d35",
+      "name": "Dr. B. K. Nayak",
+      "gender": "male",
+      "specialty": "Orthopedic Surgeon",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 20,
+      "hospitalId": "h3",
+      "department": "Orthopedics",
+      "qualification": "MBBS, MS (Orthopedics), Fellowship in Sports Medicine",
+      "consultationFee": 1800,
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d36",
+      "name": "Dr. S. M. Chandrasekar",
+      "gender": "male",
+      "specialty": "Neurologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 24,
+      "hospitalId": "h3",
+      "department": "Neurology",
+      "qualification": "MBBS, MD (Medicine), DM (Neurology)",
+      "consultationFee": 2200,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d37",
+      "name": "Dr. P. S. K. Rao",
+      "gender": "male",
+      "specialty": "Nephrologist",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 16,
+      "hospitalId": "h4",
+      "department": "Nephrology",
+      "qualification": "MBBS, MD (Medicine), DM (Nephrology)",
+      "consultationFee": 1600,
+      "languages": [
+        "Hindi",
+        "English",
+        "Telugu"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d38",
+      "name": "Dr. Anil K. Srivastava",
+      "gender": "male",
+      "specialty": "Urologist",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 18,
+      "hospitalId": "h4",
+      "department": "Urology",
+      "qualification": "MBBS, MS (General Surgery), MCh (Urology)",
+      "consultationFee": 1700,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d39",
+      "name": "Dr. Shashidhar",
+      "gender": "male",
+      "specialty": "Oncologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 18,
+      "hospitalId": "h5",
+      "department": "Oncology",
+      "qualification": "MBBS, MD (Oncology), DM (Oncology)",
+      "consultationFee": 2200,
+      "languages": [
+        "English",
+        "Hindi",
+        "Kannada"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d40",
+      "name": "Dr. Jagadish Prasad",
+      "gender": "male",
+      "specialty": "Nephrologist",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 16,
+      "hospitalId": "h5",
+      "department": "Nephrology",
+      "qualification": "MBBS, MD (Medicine), DM (Nephrology)",
+      "consultationFee": 1600,
+      "languages": [
+        "English",
+        "Hindi",
+        "Kannada"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d41",
+      "name": "Dr. Mathew K. George",
+      "gender": "male",
+      "specialty": "Gastroenterologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 20,
+      "hospitalId": "h5",
+      "department": "Gastroenterology",
+      "qualification": "MBBS, MD (Medicine), DM (Gastroenterology)",
+      "consultationFee": 1800,
+      "languages": [
+        "English",
+        "Malayalam",
+        "Hindi"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d42",
+      "name": "Dr. Sujata",
+      "gender": "female",
+      "specialty": "Dermatologist",
+      "rating": 4.6,
+      "experience": "Mid",
+      "experienceYears": 10,
+      "hospitalId": "h6",
+      "department": "Dermatology",
+      "qualification": "MBBS, DDVL, MD (Dermatology)",
+      "consultationFee": 1000,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d43",
+      "name": "Dr. Rajiv Lochan",
+      "gender": "male",
+      "specialty": "Nephrologist",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 16,
+      "hospitalId": "h6",
+      "department": "Nephrology",
+      "qualification": "MBBS, MD (Medicine), DM (Nephrology)",
+      "consultationFee": 1600,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d44",
+      "name": "Dr. Vipin B. Tiwari",
+      "gender": "male",
+      "specialty": "Neurologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 15,
+      "hospitalId": "h6",
+      "department": "Neurology",
+      "qualification": "MBBS, MD (Medicine), DM (Neurology)",
+      "consultationFee": 2000,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d45",
+      "name": "Dr. S. K. Singh",
+      "gender": "male",
+      "specialty": "Cardiologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 20,
+      "hospitalId": "h8",
+      "department": "Cardiology",
+      "qualification": "MBBS, MD (Medicine), DM (Cardiology)",
+      "consultationFee": 1800,
+      "languages": [
+        "Hindi",
+        "English",
+        "Marathi"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "10:00-11:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d46",
+      "name": "Dr. P. R. K. Reddy",
+      "gender": "male",
+      "specialty": "Neurologist",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 18,
+      "hospitalId": "h8",
+      "department": "Neurology",
+      "qualification": "MBBS, MD (Medicine), DM (Neurology)",
+      "consultationFee": 2000,
+      "languages": [
+        "English",
+        "Hindi",
+        "Telugu"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d47",
+      "name": "Dr. Amit A. Sathe",
+      "gender": "male",
+      "specialty": "Oncologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 16,
+      "hospitalId": "h8",
+      "department": "Oncology",
+      "qualification": "MBBS, MD (Oncology), DM (Oncology)",
+      "consultationFee": 2500,
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d48",
+      "name": "Dr. Santosh K. Singh",
+      "gender": "male",
+      "specialty": "Orthopedic Surgeon",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 18,
+      "hospitalId": "h10",
+      "department": "Orthopedics",
+      "qualification": "MBBS, MS (Orthopedics), Fellowship in Joint Replacement",
+      "consultationFee": 1800,
+      "languages": [
+        "English",
+        "Hindi",
+        "Punjabi"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d49",
+      "name": "Dr. Gagandeep Singh",
+      "gender": "male",
+      "specialty": "Gastroenterologist",
+      "rating": 4.6,
+      "experience": "Mid",
+      "experienceYears": 12,
+      "hospitalId": "h10",
+      "department": "Gastroenterology",
+      "qualification": "MBBS, MD (Medicine), DM (Gastroenterology)",
+      "consultationFee": 1500,
+      "languages": [
+        "English",
+        "Hindi",
+        "Punjabi"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d50",
+      "name": "Dr. Ashok K. Mahajan",
+      "gender": "male",
+      "specialty": "Cardiologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 22,
+      "hospitalId": "h11",
+      "department": "Cardiology",
+      "qualification": "MBBS, MD (Medicine), DM (Cardiology)",
+      "consultationFee": 1600,
+      "languages": [
+        "Hindi",
+        "English",
+        "Marathi"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "10:00-11:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d51",
+      "name": "Dr. Prafulla K. Sawant",
+      "gender": "male",
+      "specialty": "Oncologist",
+      "rating": 4.9,
+      "experience": "Senior",
+      "experienceYears": 24,
+      "hospitalId": "h11",
+      "department": "Oncology",
+      "qualification": "MBBS, MD (Oncology), DM (Oncology)",
+      "consultationFee": 2800,
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "14:00-15:00"
+      ]
+    },
+    {
+      "id": "d52",
+      "name": "Dr. B. S. K. Choudhary",
+      "gender": "male",
+      "specialty": "General Physician",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 20,
+      "hospitalId": "h12",
+      "department": "General Medicine",
+      "qualification": "MBBS, MD (Medicine)",
+      "consultationFee": 800,
+      "languages": [
+        "Hindi",
+        "English",
+        "Punjabi"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d53",
+      "name": "Dr. S. K. Sharma",
+      "gender": "male",
+      "specialty": "Nephrologist",
+      "rating": 4.8,
+      "experience": "Senior",
+      "experienceYears": 22,
+      "hospitalId": "h12",
+      "department": "Nephrology",
+      "qualification": "MBBS, MD (Medicine), DM (Nephrology)",
+      "consultationFee": 1800,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "10:00-11:00",
+        "14:00-15:00",
+        "15:00-16:00"
+      ]
+    },
+    {
+      "id": "d54",
+      "name": "Dr. Arun K. Mishra",
+      "gender": "male",
+      "specialty": "Urologist",
+      "rating": 4.7,
+      "experience": "Senior",
+      "experienceYears": 18,
+      "hospitalId": "h12",
+      "department": "Urology",
+      "qualification": "MBBS, MS (General Surgery), MCh (Urology)",
+      "consultationFee": 1700,
+      "languages": [
+        "Hindi",
+        "English"
+      ],
+      "availableSlots": [
+        "09:00-10:00",
+        "11:00-12:00",
+        "14:00-15:00"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "name": "General Checkup",
+      "duration": 30,
+      "price": 500
+    },
+    {
+      "id": "s2",
+      "name": "Specialist Consultation",
+      "duration": 60,
+      "price": 1500
+    },
+    {
+      "id": "s3",
+      "name": "Routine Follow-up",
+      "duration": 30,
+      "price": 300
+    },
+    {
+      "id": "s4",
+      "name": "Full Body Checkup",
+      "duration": 120,
+      "price": 3500
+    },
+    {
+      "id": "s5",
+      "name": "Emergency Consultation",
+      "duration": 30,
+      "price": 2000
+    },
+    {
+      "id": "s6",
+      "name": "Cardiac Consultation",
+      "duration": 45,
+      "price": 1200
+    },
+    {
+      "id": "s7",
+      "name": "Dermatology Checkup",
+      "duration": 30,
+      "price": 800
+    },
+    {
+      "id": "s8",
+      "name": "Pediatric Visit",
+      "duration": 40,
+      "price": 900
+    },
+    {
+      "id": "s9",
+      "name": "Orthopedic Consultation",
+      "duration": 45,
+      "price": 1100
+    },
+    {
+      "id": "s10",
+      "name": "Neurology Consultation",
+      "duration": 60,
+      "price": 1800
+    },
+    {
+      "id": "s11",
+      "name": "Eye Examination",
+      "duration": 30,
+      "price": 600
+    },
+    {
+      "id": "s12",
+      "name": "Dental Checkup",
+      "duration": 30,
+      "price": 500
+    },
+    {
+      "id": "s13",
+      "name": "Gastroenterology Consultation",
+      "duration": 45,
+      "price": 1300
+    },
+    {
+      "id": "s14",
+      "name": "Psychiatric Consultation",
+      "duration": 60,
+      "price": 1500
+    },
+    {
+      "id": "s15",
+      "name": "Pulmonology Visit",
+      "duration": 45,
+      "price": 1200
+    },
+    {
+      "id": "s16",
+      "name": "Nephrology Consultation",
+      "duration": 45,
+      "price": 1400
+    },
+    {
+      "id": "s17",
+      "name": "Urology Checkup",
+      "duration": 40,
+      "price": 1000
+    },
+    {
+      "id": "s18",
+      "name": "Gynecology Consultation",
+      "duration": 45,
+      "price": 1100
+    },
+    {
+      "id": "s19",
+      "name": "ENT Examination",
+      "duration": 30,
+      "price": 700
+    },
+    {
+      "id": "s20",
+      "name": "Video Consultation",
+      "duration": 20,
+      "price": 400
+    }
+  ],
+  "appointments": [
+    {
+      "id": "d8324820-1c07-4e9f-9d96-2802a28b070a",
+      "userId": "54a3eeeb-77fc-42cc-b13c-1e67d1b999c6",
+      "familyMemberId": null,
+      "doctorId": "d3",
+      "serviceId": "s4",
+      "date": "2026-04-07",
+      "timeSlot": "10:00-11:00",
+      "status": "cancelled",
+      "createdAt": "2026-04-05T09:51:07.175Z"
+    },
+    {
+      "id": "919eeec8-6460-4a54-bc48-8d0bd6774797",
+      "userId": "54a3eeeb-77fc-42cc-b13c-1e67d1b999c6",
+      "familyMemberId": null,
+      "doctorId": "d10",
+      "serviceId": "s8",
+      "date": "2026-04-10",
+      "timeSlot": "10:00-11:00",
+      "status": "active",
+      "createdAt": "2026-04-05T09:51:43.255Z"
+    },
+    {
+      "id": "a0938d68-0801-4ec9-a435-7ecf3b269905",
+      "userId": "d9bb3cfa-c96e-47f5-b72f-dc5f0acdb018",
+      "familyMemberId": null,
+      "doctorId": "d1",
+      "serviceId": "s1",
+      "date": "2026-04-12",
+      "timeSlot": "14:00-15:00",
+      "status": "active",
+      "createdAt": "2026-04-05T20:28:22.158Z"
+    }
+  ],
+  "prescriptions": [],
+  "health_records": [],
+  "notifications": [
+    {
+      "id": "631019f9-bd85-47a7-8984-b1f618a4f82e",
+      "userId": "54a3eeeb-77fc-42cc-b13c-1e67d1b999c6",
+      "type": "cancellation",
+      "title": "Appointment Cancelled",
+      "message": "Your appointment on 2026-04-07 has been cancelled.",
+      "read": false,
+      "createdAt": "2026-04-05T09:52:09.594Z"
+    }
+  ],
+  "reviews": [],
+  "labTests": [
+    {
+      "id": "lt1",
+      "name": "Complete Blood Count (CBC)",
+      "category": "Blood",
+      "price": 350,
+      "duration": "2 hours",
+      "description": "Measures red blood cells, white blood cells, and platelets"
+    },
+    {
+      "id": "lt2",
+      "name": "Lipid Profile",
+      "category": "Blood",
+      "price": 450,
+      "duration": "4 hours",
+      "description": "Cholesterol and triglycerides assessment"
+    },
+    {
+      "id": "lt3",
+      "name": "Thyroid Profile",
+      "category": "Blood",
+      "price": 600,
+      "duration": "6 hours",
+      "description": "TSH, T3, T4 levels evaluation"
+    },
+    {
+      "id": "lt4",
+      "name": "Liver Function Test",
+      "category": "Blood",
+      "price": 500,
+      "duration": "4 hours",
+      "description": "Assesses liver health and function"
+    },
+    {
+      "id": "lt5",
+      "name": "Kidney Function Test",
+      "category": "Blood",
+      "price": 450,
+      "duration": "4 hours",
+      "description": "Evaluates kidney performance"
+    },
+    {
+      "id": "lt6",
+      "name": "Diabetes Screening",
+      "category": "Blood",
+      "price": 250,
+      "duration": "2 hours",
+      "description": "Fasting blood sugar and HbA1c"
+    },
+    {
+      "id": "lt7",
+      "name": "Urine Analysis",
+      "category": "Urine",
+      "price": 200,
+      "duration": "2 hours",
+      "description": "Comprehensive urine examination"
+    },
+    {
+      "id": "lt8",
+      "name": "ECG",
+      "category": "Cardiac",
+      "price": 300,
+      "duration": "30 minutes",
+      "description": "Electrocardiogram heart test"
+    },
+    {
+      "id": "lt9",
+      "name": "X-Ray Chest",
+      "category": "Imaging",
+      "price": 400,
+      "duration": "1 hour",
+      "description": "Chest X-ray for lung and heart assessment"
+    },
+    {
+      "id": "lt10",
+      "name": "MRI Brain",
+      "category": "Imaging",
+      "price": 4500,
+      "duration": "1-2 hours",
+      "description": "Detailed brain imaging"
+    },
+    {
+      "id": "lt11",
+      "name": "Vitamin D3 Test",
+      "category": "Blood",
+      "price": 800,
+      "duration": "4 hours",
+      "description": "Measures Vitamin D levels in blood"
+    },
+    {
+      "id": "lt12",
+      "name": "Vitamin B12 Test",
+      "category": "Blood",
+      "price": 700,
+      "duration": "4 hours",
+      "description": "Measures Vitamin B12 levels"
+    },
+    {
+      "id": "lt13",
+      "name": "Iron Profile",
+      "category": "Blood",
+      "price": 550,
+      "duration": "4 hours",
+      "description": "Ferritin, Iron, TIBC assessment"
+    },
+    {
+      "id": "lt14",
+      "name": "Hepatitis B Screening",
+      "category": "Blood",
+      "price": 400,
+      "duration": "4 hours",
+      "description": "HBsAg test for Hepatitis B"
+    },
+    {
+      "id": "lt15",
+      "name": "Hepatitis C Screening",
+      "category": "Blood",
+      "price": 450,
+      "duration": "4 hours",
+      "description": "Anti-HCV test for Hepatitis C"
+    },
+    {
+      "id": "lt16",
+      "name": "HIV Screening",
+      "category": "Blood",
+      "price": 500,
+      "duration": "4 hours",
+      "description": "HIV 1 & 2 antibody test"
+    },
+    {
+      "id": "lt17",
+      "name": "Dengue Test",
+      "category": "Blood",
+      "price": 600,
+      "duration": "4 hours",
+      "description": "NS1 antigen and IgM antibodies"
+    },
+    {
+      "id": "lt18",
+      "name": "Malaria Test",
+      "category": "Blood",
+      "price": 350,
+      "duration": "2 hours",
+      "description": "Rapid malaria antigen test"
+    },
+    {
+      "id": "lt19",
+      "name": "Typhoid Test",
+      "category": "Blood",
+      "price": 400,
+      "duration": "4 hours",
+      "description": "Widal test for Typhoid fever"
+    },
+    {
+      "id": "lt20",
+      "name": "CT Scan Abdomen",
+      "category": "Imaging",
+      "price": 3500,
+      "duration": "1 hour",
+      "description": "Computed tomography of abdomen"
+    },
+    {
+      "id": "lt21",
+      "name": "Ultrasound Whole Abdomen",
+      "category": "Imaging",
+      "price": 800,
+      "duration": "30 minutes",
+      "description": "Complete abdominal ultrasound"
+    },
+    {
+      "id": "lt22",
+      "name": "Pap Smear",
+      "category": "Pathology",
+      "price": 500,
+      "duration": "1 week",
+      "description": "Cervical cancer screening test"
+    },
+    {
+      "id": "lt23",
+      "name": "Stool Occult Blood",
+      "category": "Stool",
+      "price": 250,
+      "duration": "2 days",
+      "description": "Screening for gastrointestinal bleeding"
+    },
+    {
+      "id": "lt24",
+      "name": "Sputum AFB",
+      "category": "Pathology",
+      "price": 300,
+      "duration": "2 days",
+      "description": "Test for tuberculosis"
+    },
+    {
+      "id": "lt25",
+      "name": "Bone Density Test",
+      "category": "Imaging",
+      "price": 1200,
+      "duration": "30 minutes",
+      "description": "DEXA scan for bone health"
+    }
+  ],
+  "medicines": [
+    {
+      "id": "m1",
+      "name": "Paracetamol 500mg",
+      "category": "Pain Relief",
+      "price": 15,
+      "manufacturer": "Cipla",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m2",
+      "name": "Aspirin 75mg",
+      "category": "Cardiac",
+      "price": 25,
+      "manufacturer": "Bayer",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m3",
+      "name": "Amoxicillin 500mg",
+      "category": "Antibiotic",
+      "price": 120,
+      "manufacturer": "Sun Pharma",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m4",
+      "name": "Cetirizine 10mg",
+      "category": "Allergy",
+      "price": 35,
+      "manufacturer": "Mylan",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m5",
+      "name": "Metformin 500mg",
+      "category": "Diabetes",
+      "price": 45,
+      "manufacturer": "USV",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m6",
+      "name": "Omeprazole 20mg",
+      "category": "Gastric",
+      "price": 55,
+      "manufacturer": "Dr. Reddy's",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m7",
+      "name": "Vitamin D3 1000IU",
+      "category": "Supplements",
+      "price": 150,
+      "manufacturer": "Glenmark",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m8",
+      "name": "Azithromycin 500mg",
+      "category": "Antibiotic",
+      "price": 180,
+      "manufacturer": "Pfizer",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m9",
+      "name": "Ibuprofen 400mg",
+      "category": "Pain Relief",
+      "price": 25,
+      "manufacturer": "Johnson & Johnson",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m10",
+      "name": "Atorvastatin 10mg",
+      "category": "Cardiac",
+      "price": 85,
+      "manufacturer": "Lupin",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m11",
+      "name": "Amlodipine 5mg",
+      "category": "Cardiac",
+      "price": 65,
+      "manufacturer": "Sun Pharma",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m12",
+      "name": "Montelukast 10mg",
+      "category": "Allergy",
+      "price": 95,
+      "manufacturer": "Cipla",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m13",
+      "name": "Pantoprazole 40mg",
+      "category": "Gastric",
+      "price": 75,
+      "manufacturer": "Alkem",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m14",
+      "name": "Levothyroxine 50mcg",
+      "category": "Thyroid",
+      "price": 45,
+      "manufacturer": "Mylan",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m15",
+      "name": "Diclofenac 50mg",
+      "category": "Pain Relief",
+      "price": 30,
+      "manufacturer": "Novartis",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m16",
+      "name": "Ciprofloxacin 500mg",
+      "category": "Antibiotic",
+      "price": 65,
+      "manufacturer": "Hetero",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m17",
+      "name": "Metronidazole 400mg",
+      "category": "Antibiotic",
+      "price": 45,
+      "manufacturer": "Sun Pharma",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m18",
+      "name": "Glimepiride 1mg",
+      "category": "Diabetes",
+      "price": 55,
+      "manufacturer": "USV",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m19",
+      "name": "Telmisartan 40mg",
+      "category": "Blood Pressure",
+      "price": 90,
+      "manufacturer": "Cipla",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m20",
+      "name": "Rabeprazole 20mg",
+      "category": "Gastric",
+      "price": 85,
+      "manufacturer": "Dr. Reddy's",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m21",
+      "name": "Vitamin B12 500mcg",
+      "category": "Supplements",
+      "price": 120,
+      "manufacturer": "Glenmark",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m22",
+      "name": "Ferrous Sulfate 325mg",
+      "category": "Supplements",
+      "price": 25,
+      "manufacturer": "GSK",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m23",
+      "name": "Salbutamol 100mcg",
+      "category": "Respiratory",
+      "price": 75,
+      "manufacturer": "Cipla",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m24",
+      "name": "Prednisolone 10mg",
+      "category": "Anti-inflammatory",
+      "price": 35,
+      "manufacturer": "Alkem",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m25",
+      "name": "Mebendazole 100mg",
+      "category": "Anti-parasitic",
+      "price": 20,
+      "manufacturer": "Johnson & Johnson",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m26",
+      "name": "Famotidine 20mg",
+      "category": "Gastric",
+      "price": 40,
+      "manufacturer": "Dr. Reddy's",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m27",
+      "name": "Glibenclamide 5mg",
+      "category": "Diabetes",
+      "price": 35,
+      "manufacturer": "USV",
+      "inStock": true,
+      "requiresPrescription": true
+    },
+    {
+      "id": "m28",
+      "name": "Cetalkonium Chloride Lotion",
+      "category": "Skin Care",
+      "price": 150,
+      "manufacturer": "Glenmark",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m29",
+      "name": "ORS Sachet",
+      "category": "Electrolytes",
+      "price": 10,
+      "manufacturer": "Cipla",
+      "inStock": true,
+      "requiresPrescription": false
+    },
+    {
+      "id": "m30",
+      "name": "Iron & Folic Acid",
+      "category": "Supplements",
+      "price": 55,
+      "manufacturer": "GSK",
+      "inStock": true,
+      "requiresPrescription": false
+    }
+  ],
+  "medicineOrders": [
+    {
+      "id": "8dbd469d-d863-45dd-9550-d2c115c0fd1c",
+      "userId": "54a3eeeb-77fc-42cc-b13c-1e67d1b999c6",
+      "items": [
+        {
+          "id": "m2",
+          "name": "Aspirin 75mg",
+          "price": 25,
+          "qty": 1
+        },
+        {
+          "id": "m3",
+          "name": "Amoxicillin 500mg",
+          "price": 120,
+          "qty": 1
+        },
+        {
+          "id": "m4",
+          "name": "Cetirizine 10mg",
+          "price": 35,
+          "qty": 1
+        },
+        {
+          "id": "m9",
+          "name": "Ibuprofen 400mg",
+          "price": 25,
+          "qty": 1
+        }
+      ],
+      "address": "HOUSE 189 UBBER PALM MEADOWS",
+      "paymentMethod": "online",
+      "status": "confirmed",
+      "estimatedDelivery": "2026-04-08T09:55:09.567Z",
+      "createdAt": "2026-04-05T09:55:09.567Z"
+    }
+  ],
+  "labBookings": []
+}

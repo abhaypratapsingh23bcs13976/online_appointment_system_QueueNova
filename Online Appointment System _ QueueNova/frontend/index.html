@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4F46E5" />
+    <title>QueueNova - Smart Healthcare Platform</title>
+    <meta name="description" content="QueueNova - Book appointments, manage prescriptions, track health records, and access AI-powered symptom checking.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="toast-container"></div>
+    <nav id="main-nav" class="navbar-container hidden">
+      <div class="navbar">
+        <!-- Logo -->
+        <a href="#/home" class="nav-logo">
+          <div class="logo-box">
+            <svg width="22" height="22" fill="white" viewBox="0 0 24 24"><path d="M12 2L2 7L12 12L22 7L12 2Z"/><path d="M2 17L12 22L22 17M2 12L12 17L22 12" stroke="white" stroke-width="2" fill="none"/></svg>
+          </div>
+          <span class="logo-text">QueueNova</span>
+        </a>
+        
+        <!-- Right Side -->
+        <div class="nav-group">
+          <!-- Auth Links -->
+          <div id="auth-links" class="nav-group" style="display:none;">
+            <a href="#/home" class="nav-link">Home</a>
+            <a href="#/dashboard" class="nav-link">Dashboard</a>
+            <a href="#/appointments" class="nav-link">Appointments</a>
+            <a href="#/hospitals" class="nav-link">Hospitals</a>
+            <a href="#/book" class="nav-link nav-item nav-cta">Book Now</a>
+          </div>
+          
+          <div id="nav-divider" style="display:none; width:1px; height:24px; background:var(--nav-border);"></div>
+          
+          <!-- Actions -->
+          <div class="nav-group">
+            <button id="theme-toggle" class="nav-icon-btn" title="Toggle Theme">
+              <svg id="theme-icon" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path></svg>
+            </button>
+            
+            <a href="#/notifications" class="nav-icon-btn" title="Notifications">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
+              <span id="notif-badge" style="display:none; position:absolute; top:-4px; right:-4px; width:18px; height:18px; background:var(--danger); color:white; font-size:0.6rem; font-weight:700; border-radius:50%; display:flex; align-items:center; justify-content:center;">0</span>
+            </a>
+            
+            <!-- User Profile -->
+            <div id="user-menu" style="display:none; position:relative;">
+              <button id="profile-btn" class="profile-toggle">
+                <div id="user-avatar" class="avatar">U</div>
+                <span id="user-name" style="color:var(--text-dark); font-size:0.875rem; font-weight:600; max-width:100px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; display:none;">User</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+              </button>
+              
+              <div id="profile-dropdown" style="display:none; position:absolute; top:calc(100% + 12px); right:0; background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:var(--nav-shadow); min-width:240px; overflow:hidden; z-index:100; animation: slideUp 0.3s ease;">
+                <div style="padding:1.25rem; border-bottom:1px solid var(--border); background:linear-gradient(135deg, rgba(79,70,229,0.05), rgba(124,58,237,0.05));">
+                  <p id="dropdown-user-name" style="font-weight:700; margin:0; font-size:0.95rem; color:var(--text-dark);">User Name</p>
+                  <p id="dropdown-user-email" style="color:var(--text-muted); margin:4px 0 0 0; font-size:0.8rem;">user@email.com</p>
+                </div>
+                <div style="padding:0.75rem;">
+                  <a href="#/settings" class="nav-link" style="display:block; padding:0.75rem 1rem;">Profile Settings</a>
+                  <a href="#/analytics" class="nav-link" style="display:block; padding:0.75rem 1rem;">My Analytics</a>
+                  <a href="#/health-records" class="nav-link" style="display:block; padding:0.75rem 1rem;">Health Records</a>
+                </div>
+                <div style="padding:0.75rem; border-top:1px solid var(--border);">
+                  <button id="logout-btn" class="btn btn-outline" style="width:100%; color:var(--danger); border-color:rgba(239,68,68,0.2); background:rgba(239,68,68,0.05);">Sign Out</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Public Links -->
+          <div id="public-links" style="display:flex; gap:1rem;">
+            <a href="#/login" class="nav-link">Log In</a>
+            <a href="#/signup" class="nav-link nav-cta">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main id="app">
+      <!-- Dynamic View Content will be injected here -->
+    </main>
+    <!-- Floating Emergency SOS Button -->
+    <a href="#/book" id="emergency-sos" style="display:block; position:fixed; bottom:2rem; right:2rem; background:var(--danger); color:white; padding:1rem 2rem; border-radius:50px; font-weight:bold; box-shadow:0 10px 15px -3px rgba(239,68,68,0.5); text-decoration:none; z-index:50;">
+      🚨 EMERGENCY SOS
+    </a>
+
+    <!-- Mock Telemedicine Overlay -->
+    <div id="telemedicine-window" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:100; align-items:center; justify-content:center; flex-direction:column; color:white;">
+      <h2 style="margin-bottom:1rem;">🔴 Secure Telemedicine Portal</h2>
+      <div style="width:80%; height:60%; background:#1f2937; border-radius:12px; display:flex; align-items:center; justify-content:center; border: 2px solid #4b5563; position:relative;">
+        <div class="spinner" style="border-top-color:var(--primary);"></div>
+        <span style="margin-left:1rem;">Connecting to Doctor via WebRTC...</span>
+        <div style="position:absolute; bottom:2rem; display:flex; gap:1rem;">
+          <button class="btn" style="background:#ef4444; color:white;" onclick="document.getElementById('telemedicine-window').style.display='none'">End Call</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

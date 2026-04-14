@@ -1,0 +1,61 @@
+org: abhayprojects
+app: queuenova
+service: queuenova-backend
+
+package:
+  individually: true
+  patterns:
+    - '!test/**'
+    - '!.git/**'
+    - '!.serverless/**'
+    - 'index.js'
+    - 'server.js'
+    - 'db.js'
+    - 'package.json'
+    - 'node_modules/**'
+    - '!node_modules/nodemon/**'
+    - '!node_modules/.bin/nodemon'
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  region: us-east-1
+  environment:
+    TABLE_NAME: QueueNovaTable
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - dynamodb:GetItem
+            - dynamodb:PutItem
+            - dynamodb:UpdateItem
+            - dynamodb:DeleteItem
+            - dynamodb:Query
+            - dynamodb:Scan
+          Resource: "arn:aws:dynamodb:${aws:region}:*:table/QueueNovaTable"
+
+functions:
+  api:
+    handler: index.handler
+    memorySize: 512
+    timeout: 30
+    url:
+      cors:
+        allowedOrigins:
+          - 'http://localhost:5173'
+          - 'http://localhost:5174'
+          - 'http://localhost:5175'
+          - 'http://localhost:5176'
+        allowedHeaders:
+          - Content-Type
+          - Authorization
+        allowedMethods:
+          - GET
+          - POST
+          - PUT
+          - DELETE
+        allowCredentials: true
+        maxAge: 86400
+
+# Note: QueueNovaTable resource removed as it already exists in the AWS account.

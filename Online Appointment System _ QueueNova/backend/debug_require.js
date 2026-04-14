@@ -1,0 +1,12 @@
+console.log('Testing requires...');
+console.log('1. express'); require('express');
+console.log('2. cors'); require('cors');
+console.log('3. cookie-parser'); require('cookie-parser');
+console.log('4. bcryptjs'); require('bcryptjs');
+console.log('5. jsonwebtoken'); require('jsonwebtoken');
+console.log('6. uuid'); require('uuid');
+console.log('7. db.js'); require('./db');
+console.log('8. ws'); require('ws');
+console.log('9. passport'); require('passport');
+console.log('10. passport-google-oauth20'); require('passport-google-oauth20');
+console.log('All requires passed!');
